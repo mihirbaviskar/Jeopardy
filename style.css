@@ -1,0 +1,66 @@
+body{
+  padding:0px;
+  margin:0px;
+  background-color:black;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(1,10,120);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+
+}
+td, th {
+  border: 4px solid black;
+  text-align: center;
+  padding: 8px;
+  font-size: 1.5em;
+
+}
+td{
+  color:rgb(215,160,75); 
+}
+button{
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  margin: 4px 2px;
+  cursor: pointer;
+  color:rgb(215,160,75); 
+  background-color: rgb(1,10,120);
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(1,10,120); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+#buttons{
+  margin: auto;
+  border: 1px solid yellow;
+  width:fit-content;
+}

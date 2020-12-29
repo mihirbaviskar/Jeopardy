@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jeopardy</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <div id="overlay" onclick="off()">
+    <div id="text"></div>
+    <div id="buttons">
+    <button class = "participant" onclick = "addMihir()">Mihir</button>
+    <button class = "participant" onclick = "addRasika()">Rasika</button>
+    <button class = "participant" onclick = "addBhupi()">Bhupendra</button>
+    </div>
+</div>
+  <table>
+  <tr>
+    <th >Food</th> <!--This is where you put your topic theme-->
+    <th>Instruments</th> <!--This is where you put your topic theme-->
+    <th>Companys</th> <!--This is where you put your topic theme-->
+    <th>Holidays</th> <!--This is where you put your topic theme-->
+    <th>Movies</th> <!--This is where you put your topic theme-->
+  </tr>
+  <tr>
+    <td><button class = "1" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$100</button></td>
+    <td><button class = "2" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$100</button></td>
+    <td><button class = "3" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$100</button></td>
+    <td><button class = "4" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$100</button></td>
+    <td><button class = "5" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$100</button></td>
+  </tr>
+  <tr>
+    <td><button class = "1" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$200</button></td>
+    <td><button class = "2" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$200</button></td>
+    <td><button class = "3" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$200</button></td>
+    <td><button class = "4" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$200</button></td>
+    <td><button class = "5" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$200</button></td>
+  </tr>
+  <tr>
+    <td><button class = "1" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$300</button></td>
+    <td><button class = "2" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$300</button></td>
+    <td><button class = "3" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$300</button></td>
+    <td><button class = "4" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$300</button></td>
+    <td><button class = "5" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$300</button></td>
+  </tr>
+  <tr>
+    <td><button class = "1" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$400</button></td>
+    <td><button class = "2" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$400</button></td>
+    <td><button class = "3" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$400</button></td>
+    <td><button class = "4" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$400</button></td>
+    <td><button class = "5" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$400</button></td>
+
+
+  </tr>
+  <tr>
+    <td><button class = "1" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$500</button></td>
+    <td><button class = "2" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$500</button></td>
+    <td><button class = "3" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$500</button></td>
+    <td><button class = "4" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$500</button></td>
+    <td><button class = "5" onclick="this.style.color = 'rgb(1,10,120)';this.disabled = true; getQuestion(this.className, this.innerHTML)">$500</button></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Mihir</th>
+    <th>Rasika</th>
+    <th>Bhupendra</th>
+  </tr>
+  <tr>
+    <td id = "mscore" >$0</td>
+    <td id = "rscore">$0</td>
+    <td id = "bscore">$0</td>
+  </tr>
+</table>
+    <script src="script.js"></script>
+  </body>
+</html>
