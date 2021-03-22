@@ -5,39 +5,39 @@ function getQuestion(topic, price){
   price = parseInt(price);
   console.log(price);
   if(topic == "1"){ // Food
-    qa[0]= {q:'This fuit is an exotic that is grown in tropical regions and happens to share part of its name with a famous pirate from the Carribeans', a:"JackFruit"}; //question & answer for $100 Food
-    qa[1]= {q:'This dish is a sausy dish that has a cheese filing and is popular among Italians.And happens to have the name of my favorite Power Ranger in in the name', a:'Ravioli'}; //question & answer for $200 Food 
-    qa[2]= {q:'This popping snake is easy to make and a popular topping would be butter', a:'popcorn'}; //question & answer for $300 Food
-    qa[3]= {q:'This nut has a hard shell but it is yummy on the inside. It even has its own ice cream flavor', a:'pistachio'}; //question & answer for $400 Food
-    qa[4]= {q:'The desert is a sweet and creamy and fatty food and often has many flavors. It is often eaten cold.', a:'ice cream'}; //question & answer for $500 Food
+    qa[0]= {q:'This invention of two things that were very rare at the time, combined to make a portable device that made people capable of keeping memories, whether photos or videos.', a:"CamCorder"}; //question & answer for $100 Food
+    qa[1]= {q:'This sport helped Indians get their independence from the British, shown in a movie directed by Ashutosh Gowariker.', a:'Cricket'}; //question & answer for $200 Food 
+    qa[2]= {q:'This romance ethics group that has the word cat in its name and is native to the mediterraneans descent.', a:'Catalans'}; //question & answer for $300 Food
+    qa[3]= {q:'This snack that contains cereal but is salty and is a MIX of flavors.', a:'Chex Mix'}; //question & answer for $400 Food
+    qa[4]= {q:'This vehicle is used to harvest corn and has the abbreviation of company.', a:'Combine'}; //question & answer for $500 Food
   }
   if(topic == "2"){ // Instruments
-    qa[0]= {q:'This instument has a triangle like base and plays soothing sounds. It is often bigger than me.', a:'Harp'}; //question & answer for $100 Instruments
-    qa[1]= {q:'This French Harp is an popular instument upon many different music genres.You slide your mouth across it to make different tones and sounds.', a:'Harmonica'}; //question & answer for $200 Instruments
-    qa[2]= {q:'This instrument jingles with metal creating a loud sound but still smallas my hand.', a:'Tambourine'}; //question & answer for $300 Instruments
-    qa[3]= {q:'This small guitar is popular on beaches and is native to the Portugese.' , a:'Ukulele'}; //question & answer for $400 Instruments
-    qa[4]= {q:'This instrument is disturbing at first but when you learn it school, it will be very relaxing.', a:'Recorder'}; //question & answer for $500 Instruments
+    qa[0]= {q:'This invention was made in 1879 and is invented by a person with the same name as a talking train.', a:'Light Bulb'}; //question & answer for $100 Instruments
+    qa[1]= {q:' What was the name of the inventor of google that studied computer engineering at Stanford before google.', a:'Larry Page '}; //question & answer for $200 Instruments
+    qa[2]= {q:'Who invented the pencil? Only one qualifies to be the correct answer.', a:'Conrad Gessner,Wiliam Monroe, Nicolas-Jacques Conté'}; //question & answer for $300 Instruments
+    qa[3]= {q:' Who made wikipedia.' , a:'Jimmy Wales'}; //question & answer for $400 Instruments
+    qa[4]= {q:'What did Brian Gamlin do?', a:'He invented darts.'}; //question & answer for $500 Instruments
   }
   if(topic == "3"){ // Brands
-    qa[0]= {q:'This company would zoom right past you.It would blow dust on your face from the seats.', a:'Nascar'}; //question & answer for $100 Brands
-    qa[1]= {q:'This company is the biggest multitech company in the world.It is a food that you and I never eat.', a:'Apple'}; //question & answer for $200 Brands
-    qa[2]= {q:'This retail company operates a chain of membership-only wareshops clubs. The name has part of much it costs', a:'Costco'}; //question & answer for $300 Brands
-    qa[3]= {q:'This company will GLUE you too the ground. While its mascot has nothing to do with glue.', a:'Elmers'}; //question & answer for $400 Brands
-    qa[4]= {q:'This company is an information technology company and has the same intials as Hurshil Padi. ', a:'Hwelett - Packard '}; //question & answer for $500 Brands
+    qa[0]= {q:'What sport has heavy balls and has the same thing you see on the edge of the roof of houses?', a:'Bowling'}; //question & answer for $100 Brands
+    qa[1]= {q:'Who has the world record for the fastest 40 meter yard dash?', a:'John Ross'}; //question & answer for $200 Brands
+    qa[2]= {q:'Who has the world record for the fastest bicycle?', a:' Mueller-Korneck'}; //question & answer for $300 Brands
+    qa[3]= {q:' What sport does Tom Brady play?', a:'Football'}; //question & answer for $400 Brands
+    qa[4]= {q:' What state has a colledge football team that has a dragon as their mascot? ', a:'Alabama'}; //question & answer for $500 Brands
   }
   if(topic == "4"){ //Holidays
-    qa[0]= {q:'This holiday is a day to make greeting cards and is named after a Romain Saint that people used worship ', a:'Valentines Day'}; //question & answer for $100 Holidays
-    qa[1]= {q:'This holiday is a worship day for some people but for others, it is just a way to get free toys.', a:'Christmas'}; //question & answer for $200 Holidays
-    qa[2]= {q:'This holiday is a obnoctious holiday that requires an animal that almost nobody knew about.The name discribes the behaviour of the animal.', a:'Groundhog Day'}; //question & answer for $300 Holidays
-    qa[3]= {q:'This holiday lasts as long as my birthday date and is celebrated during KartiKa.', a:'Diwali'}; //question & answer for $400 Holidays
-    qa[4]= {q:'This hoiday is a way to get people together and to have fun, singing and dancing. This holiday will defiently get you to say WOW!', a:'Powwow'}; //question & answer for $500 Holidays
+    qa[0]= {q:'This drink is non alcoholic and is entirely made by one fruit', a:'Apple cider'}; //question & answer for $100 Holidays
+    qa[1]= {q:'This alcoholic drink is the third most consumed drink in the world before water and tea.', a:'beer'}; //question & answer for $200 Holidays
+    qa[2]= {q:'This drink is clear and originated in Sweden and Poland and Russia. It is made with water and a gas made out of corn.', a:'vodka'}; //question & answer for $300 Holidays
+    qa[3]= {q:' This juice is mostly made out of a fruit and contains sugar, water, and other fruit juices. It has tons of health benefits, but has a tart taste.', a:'Cranberry juice '}; //question & answer for $400 Holidays
+    qa[4]= {q:' This flavor of the juice from Caprisun is filled with different types of TROPICAL fruits. After drinking this you will be strong enough to PUNCH a wall open.', a:'tropical punch'}; //question & answer for $500 Holidays
   }
   if(topic == "5"){  //Movies
-    qa[0]= {q:'This movie is an animation movie and is about is named after something that everyone has.', a:'Cars'}; //question & answer for $100 Movies
-    qa[1]= {q:'', a:''}; //question & answer for $200 Movies
-    qa[2]= {q:'', a:''}; //question & answer for $300 Movies
-    qa[3]= {q:'', a:''}; //question & answer for $400 Movies
-    qa[4]= {q:'', a:''}; //question & answer for $500 Movies
+    qa[0]= {q:'This superhero slings through the neighborhood saving people even though he is a teenager. What is this superheros name?', a:'spiderman or Peter parker'}; //question & answer for $100 Movies
+    qa[1]= {q:'This superhero can fly and wears underwear and a cape. This superhero has both a female and male version. ', a:'superman or supergirl'}; //question & answer for $200 Movies
+    qa[2]= {q:'The Hulk is played by who is in the Incredible Hulk?', a:':Lou Ferrigno '}; //question & answer for $300 Movies
+    qa[3]= {q:'Who played wonder woman in Wonder Woman?', a:'Gal Gadot'}; //question & answer for $400 Movies
+    qa[4]= {q:':What is the name of the place that aqua man is trying to save in the movie Auqaman?  ', a:'Atlantis'}; //question & answer for $500 Movies
   }
   document.getElementById("text").innerHTML = qa[(price/100) - 1].q;
   document.getElementById("overlay").style.display = "block";
